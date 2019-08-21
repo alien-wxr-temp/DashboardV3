@@ -30,3 +30,7 @@
 1. Python爬虫代码注释完善。
 2. LabView NXG代码注释完善。
 3. 提供修改namelist相关操作的操作文档。
+
+### **2.4 其他**
+
+1. 利用Microsoft Wireless Display Adapter实现无线投屏（分辨率将降至1080p）。
