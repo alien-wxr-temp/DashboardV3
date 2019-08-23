@@ -90,8 +90,8 @@ while True:
                 allTalks = allTalks+1
                 statelist[i][10] = statelist[i][10]+1
             #Time Calculating
-            if xml2[j][3]=='NULL' or int(xml2[j][3])>=18000:                            # 18000s=5h, time overflow
-                xml2[j][3] = '18000'
+            if xml2[j][3]=='NULL' or int(xml2[j][3])>=32768:                            # 18000s=5h, time overflow
+                xml2[j][3] = '32768'
                 statelist[i][2] = xml2[j][2]
                 statelist[i][3] = xml2[j][3]
                 statelist[i][6] = int(statelist[i][3])
