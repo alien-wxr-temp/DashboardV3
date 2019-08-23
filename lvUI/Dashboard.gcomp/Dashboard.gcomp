@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="196742BC024ED03E3678053E9E99A4DEA1661511CD7A9B3738230F2CCEE8328D93490A5F29B80AFFB21830F7B9C8E71CC8C8223711E81A5B7BBD3E3447C8FBFA" Timestamp="1D5353A8A621DA5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3F502C3A43C197E2C92B831F1EF717C6CB08A94F5F71521EAD66323C5DC64CE60E376187D629A638E3DA194E2D84439F40537287E642E4E13E55ADB3D21AF34E" Timestamp="1D5598201887C9A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="编辑器" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
 		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
@@ -39,6 +40,7 @@
 						<p.StoragePath>Menu.png</p.StoragePath>
 					</ExternalFile>
 				</EmbeddedDefinitionReference>
+				<SourceFileReference Bindings="EnvoyManager" Id="b8c0ce0349d041bc9c07eb9c36fda76e" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="Library.sli" StoragePath="Library.sli" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="18d916f55c094db68e81acac6b5fce2b" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Dashboard.gcomp" NameTracksFileName="True">

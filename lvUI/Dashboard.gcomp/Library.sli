@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="BD14BBF4987EC1545DA594F366F49A1BC89D61D4682AB8A4D6CCA84CA972660E7C1F5347FB4C5A3F2F409ACD439877BF4AFB4A1780F4403AC1688779C0117C95" Timestamp="1D5596F03E05318" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="39F9A387D1D32C8C83BC26EAD434DFCDD822E8CFE682D4D23DAD5741B56E84B70AA10A7FF27A29458FD0915898C97D8CC4E9826FD25E845009253AB9B678A4D3" Timestamp="1D5597E5092762B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
@@ -14,47 +14,76 @@
 				<pE>user32.dll</pE>
 			</Path>
 		</p.PlatformAgnosticPathToLibrary>
-		<Icon Id="836d1456528c4e9caa57382b16470734" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
-			<IconPanel Height="[float]40" Id="6f87264d912347dc8b42a8881ced529f" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-				<IconTemplate Height="[float]40" Id="40b006a83b4041849bbc4ddc37026c58" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+		<Icon Id="836d1456528c4e9caa57382b16470734" ListViewIconCrop="0 0 40 42" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]42" Id="6f87264d912347dc8b42a8881ced529f" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]42" Id="40b006a83b4041849bbc4ddc37026c58" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
 	</SharedLibrary>
 	<EnvoyManagerFile Id="48dcf70825f2433487265a0112a068b0" xmlns="http://www.ni.com/PlatformFramework">
 		<ProjectSettings Id="13e82f424a57481ab907d25c8a06d60b" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="fb37574a172641649d495db46c7b1c14" Name="Library.sli" NameTracksFileName="True">
-			<EmbeddedDefinitionReference Id="b4f16b06c0d1442e90bbf8505b9d21b6" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibraryEntryPoint" Name="funcName">
-				<SharedLibraryEntryPoint Id="f20eb851deda4b4ab783993c9b916adb" Symbol="funcName" UnmangledSymbol="funcName" xmlns="http://www.ni.com/ExternalCode">
-					<Icon Id="dfb2a97972e145a5ac34aabb2555d434" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
-						<IconPanel Height="[float]40" Id="9594ab9472294ea68d58f6e625782bfd" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="8f2d47b10932460799a1d43655afd000" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
-								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="73795408f4424235af708a9747d6e57b" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="c95195fda954482db74d4579923623b3" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-								<FileNameText Attached="[bool]True" Height="[float]36" Id="e50b450c58842a19dd2064bb549f094" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]funcName" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
-									<FontSetting FontFamily="Verdana" FontSize="6" Id="12ecbf8f9f0d476d9f0770d6679e54c8" />
+			<EmbeddedDefinitionReference Id="fc5a8fe0b3d645129ede682839734ee4" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibraryEntryPoint" Name="mouse_event">
+				<SharedLibraryEntryPoint Id="2b673e018c24471e85bafbcd4157437d" Symbol="mouse_event" UnmangledSymbol="mouse_event" xmlns="http://www.ni.com/ExternalCode">
+					<Icon Id="d25cdcad31af46ebae4e7a65c2880bd2" ListViewIconCrop="0 0 40 60" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]60" Id="270d934bcfc24acf9fbf51c7b42b63ff" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]60" HorizontalAlignment="[HorizontalAlignment]Stretch" Id="70a0103810674721bbcf170201a621bc" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="6b8ca097daf4bb382c9bb110742cb97" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="24bc542816094cb4be77cb84c600c8a7" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]False" Height="[float]56" Id="2af201e32ada486f872fb544d382645d" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]Fixed" Text="[string]&#xD;&#xA;&#xD;&#xA;mouse&#xD;&#xA;event" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6" Id="13cf228885b3453a9cb7f961e4b9f369" />
 								</FileNameText>
 							</IconTemplate>
 						</IconPanel>
 					</Icon>
-					<ConnectorPane Height="40" Id="76c3967153c24397bd9bc4bcd734d14e" ListViewHeight="70" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
-						<ConnectorPaneTerminal />
-						<ConnectorPaneTerminal Hotspot="0 15" />
-						<ConnectorPaneTerminal Hotspot="0 25" />
-						<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="c869c410ded14c13b635daf00d01b0c5" />
+					<ConnectorPane Height="60" Id="60c945fb7acc4e65889cc6d2bd381dcb" ListViewHeight="220" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+						<ConnectorPaneTerminal ListViewHotspot="0 65" Parameter="13f48988dbfa4226b89aa297cbeaf16f" />
+						<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 95" Parameter="3bb0575e6e8b430eab542b72e890f146" />
+						<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 125" Parameter="d30230217cc44890a882134b30efa987" />
+						<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="415b16ee9a44fb7b576c2f38b6d1fb0" />
 						<ConnectorPaneTerminal Hotspot="15 0" />
 						<ConnectorPaneTerminal Hotspot="25 0" />
-						<ConnectorPaneTerminal Hotspot="40 5" />
-						<ConnectorPaneTerminal Hotspot="40 15" />
-						<ConnectorPaneTerminal Hotspot="40 25" />
-						<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="ac59da3bdcab4d8f8da0ddf831d33f65" />
-						<ConnectorPaneTerminal Hotspot="15 40" />
-						<ConnectorPaneTerminal Hotspot="25 40" />
+						<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 80" Parameter="9457c413588549178b69bf1a02e13a57" />
+						<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 110" Parameter="6a15b190f71c4badabeb8b63f5a511a5" />
+						<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 140" Parameter="9a19c7c8450b41f4ab12c26fc93ed69d" />
+						<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="9140f880eb4544c3a4cc42bf6fe1d6ce" />
+						<ConnectorPaneTerminal Hotspot="15 60" />
+						<ConnectorPaneTerminal Hotspot="25 60" />
+						<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 155" Parameter="1f001c54ca548bd99e67554f007e04d" />
+						<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 170" Parameter="960c7e0b3df46ada4cb4eefc80c7589" />
+						<ConnectorPaneTerminal Hotspot="0 55" ListViewHotspot="0 185" Parameter="3c4f4c2d41064ef88fa85104c8f29ea8" />
+						<ConnectorPaneTerminal Hotspot="40 55" ListViewHotspot="150 200" Parameter="13d69b1bdb2c4812ac85352cd6130ebd" />
 					</ConnectorPane>
-					<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="c869c410ded14c13b635daf00d01b0c5" Name="error in" />
-					<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="ac59da3bdcab4d8f8da0ddf831d33f65" Name="error out" />
-					<SharedLibraryParameter Id="fcdfc6317059431a8e9b3e0a592f7c1d" IsReturnParameter="True" Name="return">
-						<VoidType Id="c2aa21680ce7498e8809926b1966e7eb" />
-						<SharedLibraryDiagramParameter CallDirection="Output" Id="98bc7db6e7a94450923d1e5e96f433b8" Name="return out" Visible="False" />
+					<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="3c4f4c2d41064ef88fa85104c8f29ea8" Name="error in" />
+					<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="13d69b1bdb2c4812ac85352cd6130ebd" Name="error out" />
+					<SharedLibraryParameter Id="73a1c2f9b4b9457bbf19c240379ea231" IsReturnParameter="True" Name="return">
+						<VoidType Id="156e8551a37c430499f27a558f164795" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="a2ecf4538419494f8fea98f7bfcb2e64" Name="return out" Visible="False" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="213a14e74bad40fdb8d30dcbc313ff44" Name="dwFlags">
+						<NumericType Id="fc2bcd5fded348bd908ca23989d35305" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="13f48988dbfa4226b89aa297cbeaf16f" Name="dwFlags in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="9457c413588549178b69bf1a02e13a57" Name="dwFlags out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="5a897ba61b8d48448ea093e606cf2a64" Name="dx">
+						<NumericType Id="1d31b8e025004020b61aae889c7a8e61" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="3bb0575e6e8b430eab542b72e890f146" Name="dx in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="6a15b190f71c4badabeb8b63f5a511a5" Name="dx out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="2a478864f2bc4d21adbd8c1514ddd16f" Name="dy">
+						<NumericType Id="4fdc8e581a654c6e9859def06a69b5f1" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="d30230217cc44890a882134b30efa987" Name="dy in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="9a19c7c8450b41f4ab12c26fc93ed69d" Name="dy out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="83ca533bebb644eb8b9227b3a18a8b87" Name="cButtons">
+						<NumericType Id="6e166072afa2420eb59fe6cedcd4f12e" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="415b16ee9a44fb7b576c2f38b6d1fb0" Name="cButtons in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="9140f880eb4544c3a4cc42bf6fe1d6ce" Name="cButtons out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="c0010c13ffb545ab873c9f9199811a14" Name="dwExtralnfo">
+						<NumericType Id="3b8bd52dbe7e4515a04c66a519380029" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="1f001c54ca548bd99e67554f007e04d" Name="dwExtralnfo in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="960c7e0b3df46ada4cb4eefc80c7589" Name="dwExtralnfo out" />
 					</SharedLibraryParameter>
 				</SharedLibraryEntryPoint>
 			</EmbeddedDefinitionReference>
