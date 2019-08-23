@@ -33,7 +33,7 @@ while True:
         except:
             print("requests Exception")
             with open('./pyData/errorLog.txt','a') as f:
-                f.write(time.strftime("%Y/%m/%d - %H:%M:%S", time.localtime())+'\n')
+                f.write(time.strftime("%Y/%m/%d - %H:%M:%S requests Exception", time.localtime())+'\n')
                 f.close()
             time.sleep(inc/5)
             continue
@@ -43,7 +43,7 @@ while True:
         except:
             print("soup Exception")
             with open('./pyData/errorLog.txt','a') as f:
-                f.write(time.strftime("%Y/%m/%d - %H:%M:%S", time.localtime())+'\n')
+                f.write(time.strftime("%Y/%m/%d - %H:%M:%S soup Exception", time.localtime())+'\n')
                 f.close()
             time.sleep(inc/5)
             continue
@@ -67,7 +67,7 @@ while True:
         except:
             print("XML Exception")
             with open('./pyData/errorLog.txt','a') as f:
-                f.write(time.strftime("%Y/%m/%d - %H:%M:%S", time.localtime())+'\n')
+                f.write(time.strftime("%Y/%m/%d - %H:%M:%S XML Exception", time.localtime())+'\n')
                 f.close()
             time.sleep(inc/5)
             continue
@@ -190,7 +190,7 @@ while True:
     except:
         print("exception and restart")
         with open('./pyData/errorLog.txt','a') as f:
-            f.write(time.strftime("%Y/%m/%d - %H:%M:%S", time.localtime())+'\n')
+            f.write(time.strftime("%Y/%m/%d - %H:%M:%S exception and restart", time.localtime())+'\n')
             f.close()
         time.sleep(inc/3)
         continue
