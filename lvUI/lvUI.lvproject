@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="9B81D3DB8B780F7BC19C8AB0490B226D6051545615E93EBE90E7B333E8F1B4273B37412073CC07618C22CFE50623C4373C5D73574DAADF7955A8127EC05BAC8A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BD89F1B5C7CDF105A867DBE52CCD81E1537F95C3625231999BB8E9EE1E64E9D9D761DAF3106D5A24B9DF4B7367D9C886BB9C4CF1BC7BCD691D7658ACAC28D14C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
@@ -367,7 +367,7 @@
 			</EmbeddedDefinitionReference>
 			<SourceFileReference Bindings="EnvoyManager" Id="51199307660f4ba68849c4551af7982b" ModelDefinitionType="{http://www.ni.com/Data}DataIndexDefinition" Name="data.xml" StoragePath="NI Project Data\data.xml" />
 		</NameScopingEnvoy>
-		<SourceFileReference Id="7ccb0c4019ef4311bce4da6583ddbfae" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner" StoragePath="SystemDesigner" />
+		<SourceFileReference Id="7ccb0c4019ef4311bce4da6583ddbfae" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner_2" StoragePath="SystemDesigner" />
 	</Project>
 	<ProjectInformation ProjectIconFilename="Blank Project.png" xmlns="http://www.ni.com/PlatformFramework" />
 </SourceFile>
