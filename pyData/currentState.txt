@@ -1,29 +1,29 @@
-2019/08/23 - 11:07:45
+2019/08/23 - 17:15:41
 |Numbers |AE Name           |oldState   |oTime |ifShift  |newState |nTime |freeT |BusyT |AwayT |Talks 
 _____________________________________________________________________________________________________
-|7023132 |Carmen Lai        |Ready      |114   |OnShift  |Free     |114   |303   |354   |0     |2     
+|7023132 |Carmen Lai        |Logged Off |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
 |7023178 |Chun Way Yap      |Logged Off |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
 |7023120 |HaiQiang Yuan     |Not Ready  |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
-|7023190 |Hailong Liu       |Ready      |6850  |OffShift |Offline  |6850  |0     |0     |0     |0     
-|7023086 |Jia Sheng Soo Hoe |Ready      |3356  |OffShift |Offline  |3356  |0     |0     |0     |0     
+|7023190 |Hailong Liu       |Talking    |192   |OnShift  |Busy     |192   |238   |0     |0     |1     
+|7023086 |Jia Sheng Soo Hoe |Ready      |576   |OnShift  |Free     |576   |0     |0     |0     |0     
 |7023106 |Jixi Su           |Not Ready  |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
-|7023155 |Lei Xu            |Not Ready  |4156  |OffShift |Offline  |4156  |0     |0     |0     |0     
-|7023181 |Liming Zhang      |Ready      |852   |OffShift |Offline  |852   |0     |0     |0     |0     
+|7023155 |Lei Xu            |Not Ready  |26256 |OffShift |Offline  |26256 |0     |0     |0     |0     
+|7023181 |Liming Zhang      |Ready      |22952 |OffShift |Offline  |22952 |0     |0     |0     |0     
 |7023048 |Runsheng Zhao     |Not Ready  |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
 |7023168 |Shaopeng Xu       |Logged Off |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
-|7023134 |Xiaoya Xie        |Talking    |224   |OffShift |Offline  |224   |0     |0     |0     |0     
-|7023185 |Xin Chen          |Not Ready  |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
-|7023130 |Xing Heng         |Talking    |40    |OffShift |Offline  |40    |0     |0     |0     |0     
+|7023134 |Xiaoya Xie        |Ready      |3248  |OffShift |Offline  |3248  |0     |0     |0     |0     
+|7023185 |Xin Chen          |Ready      |2174  |OffShift |Offline  |2174  |0     |0     |0     |0     
+|7023130 |Xing Heng         |Ready      |1972  |OnShift  |Free     |1972  |0     |0     |0     |0     
 |7023167 |Yanbin Li         |Logged Off |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
-|7023184 |Yaoming Ren       |Talking    |100   |OffShift |Offline  |100   |0     |0     |0     |0     
-|7023177 |Yi Huang Loy      |Ready      |360   |OnShift  |Free     |360   |1198  |925   |0     |1     
-|7257069 |Yi Xu             |Logged Off |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
+|7023184 |Yaoming Ren       |Talking    |354   |OnShift  |Busy     |354   |0     |0     |0     |0     
+|7023177 |Yi Huang Loy      |Not Ready  |3306  |OffShift |Offline  |3306  |0     |0     |0     |0     
+|7257069 |Yi Xu             |Talking    |466   |OffShift |Offline  |466   |0     |0     |0     |0     
 |7022543 |Yibai Zhao        |Logged Off |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
-|7023052 |Yunfeng Qi        |Ready      |4276  |OffShift |Offline  |4276  |0     |0     |0     |0     
+|7023052 |Yunfeng Qi        |Ready      |3226  |OffShift |Offline  |3226  |0     |0     |0     |0     
 |7023047 |Yuqi Gu           |Not Ready  |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
-|7023166 |Yuxuan Xu         |Ready      |618   |OnShift  |Free     |618   |1053  |0     |101   |0     
+|7023166 |Yuxuan Xu         |Ready      |1926  |OffShift |Offline  |1926  |0     |0     |0     |0     
 |7023082 |Zhaoyong Wu       |Not Ready  |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
-|7023187 |Zhenyang Gao      |Ready      |3846  |OffShift |Offline  |3846  |0     |0     |0     |0     
-|7023169 |Zhenyu Gu         |Ready      |4144  |OffShift |Offline  |4144  |0     |0     |0     |0     
+|7023187 |Zhenyang Gao      |Ready      |2750  |OffShift |Offline  |2750  |0     |0     |0     |0     
+|7023169 |Zhenyu Gu         |Not Ready  |14486 |OffShift |Offline  |14486 |0     |0     |0     |0     
 |7022313 |Zhi Yang Ong      |Logged Off |32768 |OffShift |Offline  |32768 |0     |0     |0     |0     
-|7023112 |Ziheng Zhang      |Ready      |46    |OnShift  |Free     |46    |448   |83    |0     |2     
+|7023112 |Ziheng Zhang      |Ready      |1278  |OnShift  |Free     |1278  |0     |0     |0     |0     

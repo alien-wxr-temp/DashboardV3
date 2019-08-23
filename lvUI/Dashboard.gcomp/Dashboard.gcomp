@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3F502C3A43C197E2C92B831F1EF717C6CB08A94F5F71521EAD66323C5DC64CE60E376187D629A638E3DA194E2D84439F40537287E642E4E13E55ADB3D21AF34E" Timestamp="1D5598201887C9A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3F502C3A43C197E2C92B831F1EF717C6CB08A94F5F71521EAD66323C5DC64CE60E376187D629A638E3DA194E2D84439F40537287E642E4E13E55ADB3D21AF34E" Timestamp="1D559937178BA00" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
