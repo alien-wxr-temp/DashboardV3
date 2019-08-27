@@ -6,3 +6,9 @@
 2. 修复了nameList中第一位的TSE上线时，不显示卡片的Bug。
 3. LabView NXG中新增了通过调用Windows API，每30s移动一次光标，防止Windows自动锁屏。
 4. LabView NXG中新增了指定时间（8:59:45）自动重启Python爬虫的功能。
+
+## **[2019-08-27]**
+
+1. LabView NXG中的指定时间重启功能，实际运行时存在问题，尝试修复。
+2. LabView NXG界面分辨率由4K降至1080p，重排界面元素。
+3. 编写说明文档。
