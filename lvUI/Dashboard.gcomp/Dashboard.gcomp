@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3F502C3A43C197E2C92B831F1EF717C6CB08A94F5F71521EAD66323C5DC64CE60E376187D629A638E3DA194E2D84439F40537287E642E4E13E55ADB3D21AF34E" Timestamp="1D559937178BA00" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7CF6FDCE130DE0C6A0E2E1218B370D1F937265128B339959737ECFC3C9F359C3FD6E0123B993E5C58078F7501B37E7D45703C9FA9B4CEF0CEE139C32750DD2CC" Timestamp="1D55D5FE00873B7" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
@@ -7,7 +7,7 @@
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
 		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="配置1" Id="31675af062c246c5acefbc4898693faf" RootNamespaceId="2746523ea50d48df9e9b43ca13b5b0d8" UserVersion="0.0.0.6" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="配置1" Id="31675af062c246c5acefbc4898693faf" RootNamespaceId="2746523ea50d48df9e9b43ca13b5b0d8" UserVersion="0.0.0.7" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="a5c957cda05c40078926438860a157a9" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="f731d30e51414e769c04be0d1791337b" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="cf7356e9c9434f8fbd1ff3c497bbee2b" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
@@ -18,7 +18,12 @@
 			<CompilerSymbolTable Id="b5d3a56762e447a3aa4f7cbe7eb2987d" xmlns="http://www.ni.com/PlatformFramework" />
 			<NativeApplicationOutputTypeProperties Id="ff237b659b894e3ca7b74bb542d34561" />
 			<ComponentItemProperties AssociatedEnvoyId="acd058365e4f4fb38d1c76006681255d" Id="d773247c87e946ffa85e920c308521ef" TopLevel="True" />
-			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="72370e1f73eb4dc3b7322fd94bfc4630" Id="ad1b8ed1de0b42fbafdc7f8fe62c9435" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="8c9833992da7469999df7345dddba0f7" Id="5f0f29eca73c4e1c91bffb4f8bee5499" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="cef8edb0ae2f43a79cf7d5771dc5d28b" Id="800794a9d47c441cbe73243aa58b3a06" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="3dc3633b8b0f4c8a935cbef7ab7cecc9" Id="1253d3138754858a055ea6075dcfe9c" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="778b99e3ad1a462596007aff85fb8a66" Id="21a4f169853449b6857aa2f753b8d314" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="e55a8a39c62d474999c7bb5b623e4d36" Id="d3ee934e1d434a2085d3d2eb7eb85601" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="cc977c034bd34e5ca5e5296576b64e28" Id="f7e317767e524e23846a419928cb15d1" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="b8b03d4e677a4d72a887debacf1d04b3" xmlns="http://www.ni.com/PlatformFramework">
@@ -27,20 +32,55 @@
 			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2746523ea50d48df9e9b43ca13b5b0d8" Name="Dashboard">
 				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="569260820078450b81b5275c7072d3df" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="card.gvi" StoragePath="card.gvi" />
-				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="7121564c32164ae48451786e645d669a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="time3.gvi" StoragePath="time3.gvi" />
-				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="539c3599d0ae4ced80bc280ef3b6136d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="time2.gvi" StoragePath="time2.gvi" />
-				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="ac3d860f8b894116a3a0937be5570bad" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="time1.gvi" StoragePath="time1.gvi" />
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="539c3599d0ae4ced80bc280ef3b6136d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="One2Two.gvi" StoragePath="One2Two.gvi" />
 				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="d936643d16414d23ba6f723cdd48297f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="state2.gvi" StoragePath="state2.gvi" />
 				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="1eb4a810c3944dca8719f7bc158ca370" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="state1.gvi" StoragePath="state1.gvi" />
 				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="acd058365e4f4fb38d1c76006681255d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Dashboard.gvi" StoragePath="Dashboard.gvi" />
-				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="56a7117ec710467384e8c3464b528a8c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test.gvi" StoragePath="test.gvi" />
 				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="606c219c3f424cc59a50441e0c3cc15f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DateAndTime.gvi" StoragePath="DateAndTime.gvi" />
-				<EmbeddedDefinitionReference Id="72370e1f73eb4dc3b7322fd94bfc4630" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Menu.png">
-					<ExternalFile>
-						<p.StoragePath>Menu.png</p.StoragePath>
-					</ExternalFile>
-				</EmbeddedDefinitionReference>
 				<SourceFileReference Bindings="EnvoyManager" Id="b8c0ce0349d041bc9c07eb9c36fda76e" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="Library.sli" StoragePath="Library.sli" />
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="bf0d96743dce42fcbb3980b024448e87" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="KillPython.gvi" StoragePath="KillPython.gvi" />
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="78660a12d0034ce7831acdcec4416010" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="RunPython.gvi" StoragePath="RunPython.gvi" />
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="d46fce97f6f949ce9dc766de093d1eef" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ifRestart.gvi" StoragePath="ifRestart.gvi" />
+				<SourceFileReference Id="68a413d5985549b6af2768fdf7cb5703" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="keepAwake.gvi" StoragePath="keepAwake.gvi" />
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="21fc819c50844a76a218458426a5a688" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="BeginRd.gvi" StoragePath="BeginRd.gvi" />
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="d774239fd3754aef968afd8fca0e1111" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Str2Arr.gvi" StoragePath="Str2Arr.gvi" />
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="8a98125fd5c542a59856383476181bb4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="posCluster.gvi" StoragePath="posCluster.gvi" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="a28fcdca6cb54f9bad9547c8d45ab91a" Name="Time">
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="b679bff50c75486baf7220713143dda6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="time3.gvi" StoragePath="Time\time3.gvi" />
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="f9658a63b1ac46d99d3651af79af0164" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="time1.gvi" StoragePath="Time\time1.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="cf7cc68426434aafa2de2936d6ed102b" Name="icons">
+					<EmbeddedDefinitionReference Id="8c9833992da7469999df7345dddba0f7" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Menu.png">
+						<ExternalFile>
+							<p.StoragePath>"icons\\Menu.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="cef8edb0ae2f43a79cf7d5771dc5d28b" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="available.png">
+						<ExternalFile>
+							<p.StoragePath>"icons\\available.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="3dc3633b8b0f4c8a935cbef7ab7cecc9" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="away.png">
+						<ExternalFile>
+							<p.StoragePath>"icons\\away.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="778b99e3ad1a462596007aff85fb8a66" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Power.png">
+						<ExternalFile>
+							<p.StoragePath>"icons\\Power.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e55a8a39c62d474999c7bb5b623e4d36" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="talking.png">
+						<ExternalFile>
+							<p.StoragePath>"icons\\talking.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="cc977c034bd34e5ca5e5296576b64e28" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="talks.png">
+						<ExternalFile>
+							<p.StoragePath>"icons\\talks.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="18d916f55c094db68e81acac6b5fce2b" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Dashboard.gcomp" NameTracksFileName="True">

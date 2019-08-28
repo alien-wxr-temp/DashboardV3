@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A2A74C1188935B9DEE25D53019A2E7F9251E7E9B4A23B78F9A14380F66C216D432DF7B064C7A5071941AC936B40606176F89504E589448EDBD7C336802507757" Timestamp="1D55CB00F25BFCC" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3036990954FBE2EEE555461D2F96A632DE01A3F78DD6D50A2B8868BF6D892DE0E85B388D1BC622DA04F6AFB5886D318155C4DABE7FE3E329C2F2A43F07DBC1C0" Timestamp="1D55D48E94E4901" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -164,7 +164,7 @@
 							<Comment Bounds="140 55 45 15" Id="8441cfc968644d9ebe35c993025de270" xmlns="http://www.ni.com/MocCommon">
 								<p.Text>Hour</p.Text>
 							</Comment>
-							<MethodCall Bounds="140 10 40 40" Id="a00d319e7fae45c9b8e513826a110d17" ResolveFailedHint="&quot;C:\\Users\\eriwang.NI\\OneDrive - National Instruments\\Project\\Phone Support Dashboard\\DashboardV3\\lvUI\\Dashboard.gcomp\\time2.gvi&quot;" Signature="@cf02cef416fe460d9848493de0a3f6c9" Target="Dashboard::time2.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="140 10 40 40" Id="a00d319e7fae45c9b8e513826a110d17" ResolveFailedHint="&quot;C:\\Users\\eriwang.NI\\OneDrive - National Instruments\\Project\\Phone Support Dashboard\\DashboardV3\\lvUI\\Dashboard.gcomp\\One2Two.gvi&quot;" Signature="@26c73f3fac8742618f9fe98057540c1c" Target="Dashboard::One2Two.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="十进制整型字符串" />
@@ -182,7 +182,7 @@
 					</FlatSequence>
 					<FlatSequence Bounds="310 1010 225 110" Id="a02f66cbb57042a281cdd34767b1bea9">
 						<FlatSequence.Frame Bounds="5 10 215 90" Id="c540b577882943beb37b1029a4d8a978">
-							<MethodCall Bounds="135 30 40 40" Id="36fa3837e783430c9fd3df5e0e0d29b8" ResolveFailedHint="&quot;C:\\Users\\eriwang.NI\\OneDrive - National Instruments\\Project\\Phone Support Dashboard\\DashboardV3\\lvUI\\Dashboard.gcomp\\time2.gvi&quot;" Signature="@cf02cef416fe460d9848493de0a3f6c9" Target="Dashboard::time2.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="135 30 40 40" Id="36fa3837e783430c9fd3df5e0e0d29b8" ResolveFailedHint="&quot;C:\\Users\\eriwang.NI\\OneDrive - National Instruments\\Project\\Phone Support Dashboard\\DashboardV3\\lvUI\\Dashboard.gcomp\\One2Two.gvi&quot;" Signature="@26c73f3fac8742618f9fe98057540c1c" Target="Dashboard::One2Two.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="十进制整型字符串" />
@@ -423,7 +423,7 @@
 					<Wire Id="f57177ad72684643b5890f580d668178" Joints="N(b27557c323014e4589cb535e3b959aa9:c5t0v)|(243,835) N(9e8c2e4be9104cd28080f57dbcf53072:70e1eaa2cb564c2c9b8c7bac658b6b48)|(306,835)" xmlns="http://www.ni.com/PlatformFramework" />
 					<FlatSequence Bounds="310 1140 225 105" Id="34cf4c3d2a2c4dcc9c78d832175296c1">
 						<FlatSequence.Frame Bounds="5 10 215 85" Id="6a92b38fe0d14b0fab4c7b77ce6cec3e">
-							<MethodCall Bounds="135 35 40 40" Id="97063ecacf854aaab2c7cb72fb8dc740" ResolveFailedHint="&quot;C:\\Users\\eriwang.NI\\OneDrive - National Instruments\\Project\\Phone Support Dashboard\\DashboardV3\\lvUI\\Dashboard.gcomp\\time2.gvi&quot;" Signature="@cf02cef416fe460d9848493de0a3f6c9" Target="Dashboard::time2.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="135 35 40 40" Id="97063ecacf854aaab2c7cb72fb8dc740" ResolveFailedHint="&quot;C:\\Users\\eriwang.NI\\OneDrive - National Instruments\\Project\\Phone Support Dashboard\\DashboardV3\\lvUI\\Dashboard.gcomp\\One2Two.gvi&quot;" Signature="@26c73f3fac8742618f9fe98057540c1c" Target="Dashboard::One2Two.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="十进制整型字符串" />
@@ -532,16 +532,16 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="cf02cef416fe460d9848493de0a3f6c9">
-			<Attributed AttributedType="@de58900799a0484794962e13ac74eead">
+		<p.TypeReference TypeId="26c73f3fac8742618f9fe98057540c1c">
+			<Attributed AttributedType="@5e0fe98c2ade4958ac6a7bddcc1e04d1">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="de58900799a0484794962e13ac74eead">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="time2.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="5e0fe98c2ade4958ac6a7bddcc1e04d1">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="One2Two.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@b4d786e26d28473eb1cc5035034c2df2">
 						<AttributeValues>
@@ -564,7 +564,7 @@
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.IconModel Target="Dashboard::time2.gvi">
+		<p.IconModel Target="Dashboard::One2Two.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
@@ -572,8 +572,8 @@
 							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
 								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]time2" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
-									<FontSetting FontFamily="Verdana" FontSize="9" />
+								<FileNameText Attached="[bool]False" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]One&#xD;&#xA;2&#xD;&#xA;Two" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6.75" />
 								</FileNameText>
 							</IconTemplate>
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Dashboard.gcomp" Top="[float]0" Width="[float]40" />
