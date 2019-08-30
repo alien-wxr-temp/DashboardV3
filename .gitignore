@@ -36,3 +36,7 @@ lvUI/.cache/Library.slicache
 pyData/data.txt
 pyData/errorLog.txt
 pyData/currentState.txte
+pyData/errorLog.txt
+pyData/currentXML.txt
+pyData/currentState.txt
+pyData/data.txt

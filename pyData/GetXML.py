@@ -52,25 +52,36 @@ while True:
         timetick2 = int(time.time())
         ticks = time.strftime("%Y%m%d-%H%M%S", time.localtime())
 
-        try:
-            for row_tag in soup.report.children:
-                j=0
-                single = ['','','','','','','']
-                for col_tag in row_tag.children:
-                    if (col_tag['name']=='AgentLogin' or col_tag['name']=='FullName' or col_tag['name']=='AgentState' or col_tag['name']=='TimeInState' or col_tag['name']=='OnShift'):
-                        if (len(col_tag.contents) != 0):
-                            single[j] = col_tag.contents[0]
-                        else:
-                            single[j] = 'NULL'
-                        j=j+1
-                xml.append(single)
-        except:
-            print("XML Exception")
-            with open('./pyData/errorLog.txt','a') as f:
-                f.write(time.strftime("%Y/%m/%d - %H:%M:%S XML Exception", time.localtime())+'\n')
-                f.close()
-            time.sleep(inc/5)
-            continue
+        with open('./pyData/currentXML.txt', 'w') as f:
+            try:
+                #f.writelines(time.strftime("%Y/%m/%d - %H:%M:%S", time.localtime())+'\n')
+                #f.writelines('|Numbers |AE Name           |newState |oTime |ifShift  \n')
+                #f.writelines('_'*60+'\n')
+                for row_tag in soup.report.children:
+                    j=0
+                    single = ['','','','','','','']
+                    for col_tag in row_tag.children:
+                        if (col_tag['name']=='AgentLogin' or col_tag['name']=='FullName' or col_tag['name']=='AgentState' or col_tag['name']=='TimeInState' or col_tag['name']=='OnShift'):
+                            if (len(col_tag.contents) != 0):
+                                single[j] = col_tag.contents[0]
+                            else:
+                                single[j] = 'NULL'
+                            j=j+1
+                    #f.writelines('|'+single[0].ljust(8,' '))              #No.
+                    f.writelines(single[1])             #Name
+                    #f.writelines('|'+single[2].ljust(10,' '))              #State
+                    #f.writelines('|'+single[3].ljust(6,' '))              #TimeInState
+                    #f.writelines('|'+single[4].ljust(9,' '))              #ifOnShift
+                    f.writelines('\n')
+                    xml.append(single)
+            except:
+                print("XML Exception")
+                with open('./pyData/errorLog.txt','a') as f:
+                    f.write(time.strftime("%Y/%m/%d - %H:%M:%S XML Exception", time.localtime())+'\n')
+                    f.close()
+                time.sleep(inc/5)
+                continue
+            f.close()
 
         xml2 = [list(t) for t in set(tuple(_) for _ in xml)]
         xml2.sort(key=operator.itemgetter(1))
