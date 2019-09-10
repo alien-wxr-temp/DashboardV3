@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="783DE791C0D7D19D0803322DD5E527B3F70C3A91990D801D6792D4954EA8D6C7D598BE28CFC641BEC14EBE45ACBC780948943DA7FD30D93EEE2AE63995C1187C" Timestamp="1D567AB1E3D265F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="b5de02f08ca949b4a30db87fb597dd6b" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="db72cdcae1ad4184930004c348cc524f" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="415124875f74a6d89e10a98108cae21" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="aed84b932e0b40e3a7559542c71f3bc7" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="91451becbc58493ca51b6fa64e0d5b3a" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="dafc0fdeed1449668c716c5783cd74cf" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Height="[float]36" Id="cc50c70a242c49ee8c23eeb8d18166be" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Dashboard" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="ea45e3d248054463b0567231b39b9836" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="f55639f629c94c5b940b0eaf59fb1f2f" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="4aa087402d64c5fb9e9aa0cfcde25b6" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="0 0 40 15" DataItem="2f325c08c1184a1b9b39f1f5b451dc57" Id="b416937c1efc4b58ba00f03d20db7364" Label="f127e8086e07450e846124fe21ee9359">
+				<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="b416937c1efc4b58ba00f03d20db7364" Bounds="45 0 30 15" Id="f127e8086e07450e846124fe21ee9359" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>circleBar</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="b2c97bbe5c8347f1941929d57e0e68f6" Id="f6db8da9ef57442a8224ab9f505d9d5c" Label="a306bb915ad74065934c7574f99466c1">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="f6db8da9ef57442a8224ab9f505d9d5c" Bounds="45 0 30 15" Id="a306bb915ad74065934c7574f99466c1" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>URL Image</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="4b38485f7a87403fb9c665d132c97a30" Id="3183f21b348140ff9941735f03faaf96" Label="843fe8d4fc5f4d4e941dced8832cfe1b">
+				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="3183f21b348140ff9941735f03faaf96" Bounds="-35 0 30 15" Id="843fe8d4fc5f4d4e941dced8832cfe1b" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Tab</p.Text>
+			</NodeLabel>
+		</DiagramUnplacedItems>
+		<FrontPanelUnplacedItems Id="ab881437044545bab727757cf0893efc" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="91c8ef83033e4bb680563abfac616d41" />
+		<HtmlFrontPanel Height="[float]950" HtmlPanel="[bool]False" Id="36ec77b11414aa599b93e504b551423" LayoutSystem="[LayoutSystem]Absolute" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" UpdatedRootPage="[string]&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xA;&#xA;    &lt;head&gt;&#xA;        &lt;meta charset=&quot;utf-8&quot;&gt;&#xA;        &lt;!---Read only section. Source panel edits to these document properties will not be persisted--&gt;&#xA;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xA;        &lt;title&gt;Dashboard&lt;/title&gt;&#xA;        &lt;!---End read only section. Additional scripts or document properties can be added outside this section--&gt;&#xA;        &lt;style ni-autogenerated-style-id=&quot;&quot;&gt;&#xA;            /* Edits to the content of this style tag will not be persisted. To add additional styles, add a new style tag before or after this one */&#xA;        &lt;/style&gt;&#xA;        &lt;link href=&quot;support/style.css&quot; rel=&quot;stylesheet&quot;&gt;&#xA;    &lt;/head&gt;&#xA;&#xA;    &lt;body background='Dboard-Bground.png'&gt;&#xA;        &lt;div id=&quot;ni-outdated-browser-message&quot; style=&quot;display:none&quot;&gt;This browser is reporting compatibility with older browser technologies that may perform poorly if it all.&lt;/div&gt;&#xA;        &lt;div id=&quot;ni-failed-to-load-vireo-source&quot; style=&quot;display:none&quot;&gt;&#xA;            &lt;div id=&quot;ni-failed-to-load-vireo-message-title&quot;&gt;&#xA;                Unable to load resource file&#xA;            &lt;/div&gt;&#xA;            &lt;div id=&quot;ni-failed-to-load-vireo-message-body&quot;&gt;&#xA;                Verify all WebVI files are available and served using an HTTP server or use a browser that can load files directly from the file system. See &lt;a href=&quot;http://digital.ni.com/express.nsf/bycode/HOSTWEBAPP&quot;&gt;Hosting a Web Application on a Server&lt;/a&gt;                for more information.&#xA;            &lt;/div&gt;&#xA;        &lt;/div&gt;&#xA;        &lt;div class=&quot;ni-front-panel-wrapper&quot; vi-ref=&quot;&quot; ni-control-id=&quot;FrontPanelWrapper&quot;&gt;&#xA;            &lt;ni-front-panel control-resize-mode=&quot;fixed&quot; layout=&quot;absolute&quot; ni-control-id=&quot;2&quot;&gt;&#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;            &lt;/ni-front-panel&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;/body&gt;&#xA;&#xA;&lt;/html&gt;" Width="[float]1904" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<HtmlLVRadialProgressBar BaseName="[string]Radial Progress Bar" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]250" Id="1707f769d0814a4c8f7f7c06a40a3cef" Label="[UIModel]f7d460759b9f46a6a536e2829d66c8e5" Left="[float]20" Maximum="[double]100" MinHeight="[float]40" MinWidth="[float]40" Minimum="[double]0" TabIndex="[int]0" Top="[float]148" Value="{DataItemBinding Id=2f325c08c1184a1b9b39f1f5b451dc57}" Width="[float]250" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<HtmlBehavior ClassAttributes=".circleBar" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlLVRadialProgressBar>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]" Height="[float]10" Id="f7d460759b9f46a6a536e2829d66c8e5" LabelOwner="[UIModel]1707f769d0814a4c8f7f7c06a40a3cef" Left="[float]20" Text="[string]circleBar" Top="[float]128" Visible="[bool]False" Width="[float]10" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlUrlImage Alternate="[string]" BaseName="[string]UrlImage" Extras="[Dictionary&lt;string, string&gt;]&quot;opacity&quot;=&quot;0.5&quot;" Height="[float]400" Id="d8b6fa1b602f4c3ea2a050bd505cc0c8" Label="[UIModel]6f0e716eee024a97bcc5d4258e3dec5b" Left="[float]868" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=b2c97bbe5c8347f1941929d57e0e68f6}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]148" Width="[float]400" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<HtmlBehavior ClassAttributes=".card" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlUrlImage>
+			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]" Height="[float]10" Id="6f0e716eee024a97bcc5d4258e3dec5b" LabelOwner="[UIModel]d8b6fa1b602f4c3ea2a050bd505cc0c8" Left="[float]868" Text="[string]URL Image" Top="[float]128" Visible="[bool]False" Width="[float]10" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlTabControl BaseName="[string]Tab" Height="[float]184" Id="a0c7c9d03c214c60b88a31856c1c0389" IncludeInCapture="[bool]False" Label="[UIModel]64cc39cfcad1451791578c89994ea334" Left="[float]436" MinHeight="[float]55" MinWidth="[float]60" SelectedIndex="{DataItemBinding Id=4b38485f7a87403fb9c665d132c97a30}" TabIndex="[int]2" Top="[float]612" Width="[float]880" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<HtmlTabItem Header="[string]Tab 0" Id="c691737ef20d45ca8e882cf0516b60a3" Left="[float]0" TabIndex="[int]2" Top="[float]0">
+					<HtmlLayoutPanel Height="[float]159" Id="238e2cf220e49a4b4b616917e0a1613" Left="[float]1" MinFlexibleHeight="[float]175" Top="[float]24" Width="[float]878" />
+				</HtmlTabItem>
+				<HtmlTabItem Header="[string]Tab 1" Id="ebf03df521a6454ba5b62f43761e4962" Left="[float]0" TabIndex="[int]2" Top="[float]0">
+					<HtmlLayoutPanel Height="[float]159" Id="19621de843b0463fa992d793efdf1924" Left="[float]1" MinFlexibleHeight="[float]175" Top="[float]24" Width="[float]878" />
+				</HtmlTabItem>
+				<HtmlBehavior ClassAttributes=".card" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlTabControl>
+			<HtmlLabel Height="[float]16" Id="64cc39cfcad1451791578c89994ea334" LabelOwner="[UIModel]a0c7c9d03c214c60b88a31856c1c0389" Left="[float]436" Text="[string]Tab" Top="[float]592" Width="[float]25" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlText BaseName="[string]Text" Foreground="[SMColor]#fff36b4e" Height="[float]168" Id="186c30f5a7684955b0e6aadd890152cf" Left="[float]340" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Text" TextWrapping="[TextWrapping]Wrap" Top="[float]388" Width="[float]264" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<FontSetting FontFamily="Segoe UI" FontSize="24" Id="410f9efec3b4dcf98c3264b6861d0ac" xmlns="http://www.ni.com/PlatformFramework" />
+				<HtmlBehavior ClassAttributes="card" xmlns="http://www.ni.com/PlatformFramework" />
+			</HtmlText>
+		</HtmlFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="2f325c08c1184a1b9b39f1f5b451dc57" Name="circleBar" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="b2c97bbe5c8347f1941929d57e0e68f6" Name="URL Image" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>card.png</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="4b38485f7a87403fb9c665d132c97a30" Name="Tab" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>

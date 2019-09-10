@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7CF6FDCE130DE0C6A0E2E1218B370D1F937265128B339959737ECFC3C9F359C3FD6E0123B993E5C58078F7501B37E7D45703C9FA9B4CEF0CEE139C32750DD2CC" Timestamp="1D5639BBCFA7A64" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8C8109373E91D17375E386592AF569D0898D790788E61BF8E4D1C84A679BDB32D0504126DD8C0E4EDA347A63F90C9C9B404E7C9F9C19DBD675AA415FBE86E323" Timestamp="1D56781D4618700" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
@@ -81,6 +81,7 @@
 						</ExternalFile>
 					</EmbeddedDefinitionReference>
 				</NameScopingEnvoy>
+				<SourceFileReference Id="73dfa5c0bc5d4ffe871bf39532ac30cf" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="initArray.gvi" StoragePath="initArray.gvi" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="18d916f55c094db68e81acac6b5fce2b" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Dashboard.gcomp" NameTracksFileName="True">
