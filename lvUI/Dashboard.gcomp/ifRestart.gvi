@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="75AF7B114FBA29B4BC0AEA57092312987E403F1CE3A69A6CC4D5B437C5E044AAAA6C122E62BF17184C125B6B565EE5072CD89D92D2335F153DF642FC85688B07" Timestamp="1D55D40A097505A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="82DB776CCF574A485F2B897E4BE065FE8431D5550777D88C93267B935F77B4A3857446FD319C04D35921B6283E3BE988BAE36FCE0946F189FF283D99359578AA" Timestamp="1D561F417A4594C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -49,7 +49,7 @@
 			<GetCurrentTime Bounds="175 315 35 30" Id="c872b2245e7f4132b7383604962e25fc" />
 			<IsEqual Bounds="285 350 30 30" Id="13d09ac946234b19a0fa29a1ea3b362d" />
 			<Literal Bounds="190 365 75 15" DataType="String" Id="fc44c48877344ada9ef6eb9206b24a9" Label="ce8577276d364c6282b6a2024e8a147c" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>8:59：45</p.Data>
+				<p.Data>8:59:45</p.Data>
 				<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 			</Literal>
 			<Wire Id="e852aa6f97b742c8aefb3c707ccccdda" Joints="N(683285606cd0469e9bc6835d43160bcd:time string)|(265,355) N(13d09ac946234b19a0fa29a1ea3b362d:x)|(285,355)" xmlns="http://www.ni.com/PlatformFramework" />
