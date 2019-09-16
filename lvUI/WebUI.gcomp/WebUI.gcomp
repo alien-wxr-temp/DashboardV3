@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="E74EB8377C26A9E6102E89CA569FE253AD8E9F86978128BCE6D9F0BA4C958B858252FB160D355BF4F8FB486B75DCEF6DD270CD7E88324FAC52964E610B03A621" Timestamp="1D5679EB061B868" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="ECECB83D38530B3EA1D17BA3BB6DC8D2FE1B1DC42F4B063F222DBDB73D34E11590E17126298CB5B644A7B2030E9DAEA6418437325F49CE42D52720D1A617465B" Timestamp="1D567B1E87CB7F4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
@@ -18,6 +18,8 @@
 			<WebApplicationOutputTypeProperties Id="ccc7c7f8de484d4fabc03863c811536e" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 			<ComponentItemProperties AssociatedEnvoyId="e0437e9bfa1a496287f4aabc23d2bf6b" Id="8cf2a05493b546379c04db16555fad04" TopLevel="True" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="51a308bfed5243108dac186a1ef655fd" Id="1856926ac72046ff8bf327d4d18d0384" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="28f37bb9b6384859ad44cfd337955417" Id="57d52444e3ed457bad612076e8e3aff1" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d027f25e8a224348bb5225167d6ce197" Id="80cf8d17470d4d0e9a742c2774da9a16" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6261e38c98694fe2a32d71fc233899eb" xmlns="http://www.ni.com/PlatformFramework">
@@ -31,6 +33,18 @@
 						<p.StoragePath>Dboard-Bground.png</p.StoragePath>
 					</ExternalFile>
 				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Id="28f37bb9b6384859ad44cfd337955417" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="card.png">
+					<ExternalFile>
+						<p.StoragePath>card.png</p.StoragePath>
+					</ExternalFile>
+				</EmbeddedDefinitionReference>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="250fd417ab5341a5b3c84361affd2359" Name="support">
+					<EmbeddedDefinitionReference Id="d027f25e8a224348bb5225167d6ce197" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="style.css">
+						<ExternalFile>
+							<p.StoragePath>"support\\style.css"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="26cbe9cb3e94a8ca6244b8cc0304d9e" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebUI.gcomp" NameTracksFileName="True">

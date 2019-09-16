@@ -23,14 +23,22 @@
 
 1. LabView NXG中添加通知栏，用于播报各类实时信息（如：2.1.3中链接失效报警，available人数较低报警）。
 2. 探索新的可提供的数据。（具体和IT讨论后得出）
+   1. Cisco数据库可每30s提供当前等待中客户人数。
 3. 根据3种状态（available，talking，away）进行重排序。
 
 ### **2.3 后期可维护**
 
 1. Python爬虫代码注释完善。
+   1. 使用OOP对Python部分功能进行封装。
 2. LabView NXG代码注释完善。
 3. 提供修改namelist相关操作的操作文档。
 
 ### **2.4 其他**
 
 1. 利用Microsoft Wireless Display Adapter实现无线投屏（分辨率将降至1080p）。
+
+## **3 DashboardV3 Web版规划**
+
+### **3.1 概述**
+
+1. 利用LabView NXG Web Module进行开发。

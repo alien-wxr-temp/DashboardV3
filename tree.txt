@@ -1,0 +1,323 @@
+.
+├── README.md
+├── Reference
+│   ├── DashboardV2.png
+│   ├── DashboardV3�\200�\217\221�\226\207档.md
+│   ├── DashboardV3�\200�\217\221�\227��\227.md
+│   └── DashboardV3说�\230\216�\226\207档.md
+├── lvUI
+│   ├── Builds
+│   │   └── WebUI_Web\ Server
+│   │       ├── Dashboard.html
+│   │       ├── Dashboard.via.txt
+│   │       ├── Dboard-Bground.png
+│   │       ├── card.png
+│   │       ├── ni-webvi-resource-v0
+│   │       │   ├── Web
+│   │       │   │   ├── Styles
+│   │       │   │   │   └── jqxlegacy
+│   │       │   │   │       ├── backImage.png
+│   │       │   │   │       ├── backgroundTop.png
+│   │       │   │   │       ├── bg_black.png
+│   │       │   │   │       ├── bg_black_horizontal.png
+│   │       │   │   │       ├── bg_blackhover.png
+│   │       │   │   │       ├── bg_blackhover_horizontal.png
+│   │       │   │   │       ├── bg_blackpressed.png
+│   │       │   │   │       ├── bg_blackpressed_horizontal.png
+│   │       │   │   │       ├── bg_blueenergy.png
+│   │       │   │   │       ├── bg_darkblue.png
+│   │       │   │   │       ├── bg_darkbluehover.png
+│   │       │   │   │       ├── bg_darkbluepressed.png
+│   │       │   │   │       ├── black_gradient.png
+│   │       │   │   │       ├── blackbackground.png
+│   │       │   │   │       ├── check_black.png
+│   │       │   │   │       ├── check_blue.png
+│   │       │   │   │       ├── check_blue_indeterminate.png
+│   │       │   │   │       ├── check_disabled.png
+│   │       │   │   │       ├── check_indeterminate_black.png
+│   │       │   │   │       ├── check_indeterminate_disabled.png
+│   │       │   │   │       ├── check_indeterminate_white.png
+│   │       │   │   │       ├── check_lightblue.png
+│   │       │   │   │       ├── check_lightblue_indeterminate.png
+│   │       │   │   │       ├── check_white.png
+│   │       │   │   │       ├── close.png
+│   │       │   │   │       ├── close_black.png
+│   │       │   │   │       ├── close_blue.png
+│   │       │   │   │       ├── close_white.png
+│   │       │   │   │       ├── colorpicker
+│   │       │   │   │       │   ├── bar-hue.png
+│   │       │   │   │       │   ├── bar-saturation.png
+│   │       │   │   │       │   ├── map-hue.png
+│   │       │   │   │       │   ├── map-saturation-overlay.png
+│   │       │   │   │       │   └── map-saturation.png
+│   │       │   │   │       ├── common.png
+│   │       │   │   │       ├── crosshair-white.png
+│   │       │   │   │       ├── crosshair.png
+│   │       │   │   │       ├── darkred_gradient.png
+│   │       │   │   │       ├── drag.png
+│   │       │   │   │       ├── dragcancel.png
+│   │       │   │   │       ├── error.png
+│   │       │   │   │       ├── filter.png
+│   │       │   │   │       ├── html_editor.png
+│   │       │   │   │       ├── html_editor_white.png
+│   │       │   │   │       ├── icon-calendar-light.png
+│   │       │   │   │       ├── icon-calendar-metro-light.png
+│   │       │   │   │       ├── icon-calendar-metro-yellow-light.png
+│   │       │   │   │       ├── icon-calendar-white.png
+│   │       │   │   │       ├── icon-calendar.png
+│   │       │   │   │       ├── icon-cancel-white.png
+│   │       │   │   │       ├── icon-cancel.png
+│   │       │   │   │       ├── icon-delete-white.png
+│   │       │   │   │       ├── icon-delete.png
+│   │       │   │   │       ├── icon-down-blue.png
+│   │       │   │   │       ├── icon-down-transparent.png
+│   │       │   │   │       ├── icon-down-white.png
+│   │       │   │   │       ├── icon-down.png
+│   │       │   │   │       ├── icon-edit-white.png
+│   │       │   │   │       ├── icon-edit.png
+│   │       │   │   │       ├── icon-first-blue.png
+│   │       │   │   │       ├── icon-first-transparent.png
+│   │       │   │   │       ├── icon-first-white.png
+│   │       │   │   │       ├── icon-first.png
+│   │       │   │   │       ├── icon-last-blue.png
+│   │       │   │   │       ├── icon-last-transparent.png
+│   │       │   │   │       ├── icon-last-white.png
+│   │       │   │   │       ├── icon-last.png
+│   │       │   │   │       ├── icon-left-blue.png
+│   │       │   │   │       ├── icon-left-transparent.png
+│   │       │   │   │       ├── icon-left-white.png
+│   │       │   │   │       ├── icon-left.png
+│   │       │   │   │       ├── icon-menu-minimized-white.png
+│   │       │   │   │       ├── icon-menu-minimized.png
+│   │       │   │   │       ├── icon-plus-white.png
+│   │       │   │   │       ├── icon-plus.png
+│   │       │   │   │       ├── icon-recurrence-exception-white.png
+│   │       │   │   │       ├── icon-recurrence-exception.png
+│   │       │   │   │       ├── icon-recurrence-white.png
+│   │       │   │   │       ├── icon-recurrence.png
+│   │       │   │   │       ├── icon-right-blue.png
+│   │       │   │   │       ├── icon-right-transparent.png
+│   │       │   │   │       ├── icon-right-white.png
+│   │       │   │   │       ├── icon-right.png
+│   │       │   │   │       ├── icon-save-white.png
+│   │       │   │   │       ├── icon-save.png
+│   │       │   │   │       ├── icon-showpassword-white.png
+│   │       │   │   │       ├── icon-showpassword.png
+│   │       │   │   │       ├── icon-time-white.png
+│   │       │   │   │       ├── icon-time.png
+│   │       │   │   │       ├── icon-up-blue.png
+│   │       │   │   │       ├── icon-up-transparent.png
+│   │       │   │   │       ├── icon-up-white.png
+│   │       │   │   │       ├── icon-up.png
+│   │       │   │   │       ├── info.png
+│   │       │   │   │       ├── loader-small.gif
+│   │       │   │   │       ├── loader.gif
+│   │       │   │   │       ├── mail.png
+│   │       │   │   │       ├── menubutton.png
+│   │       │   │   │       ├── metro-icon-down-white.png
+│   │       │   │   │       ├── metro-icon-down.png
+│   │       │   │   │       ├── metro-icon-first-white.png
+│   │       │   │   │       ├── metro-icon-first.png
+│   │       │   │   │       ├── metro-icon-last-white.png
+│   │       │   │   │       ├── metro-icon-last.png
+│   │       │   │   │       ├── metro-icon-left-white.png
+│   │       │   │   │       ├── metro-icon-left.png
+│   │       │   │   │       ├── metro-icon-right\ -\ Copy.png
+│   │       │   │   │       ├── metro-icon-right-white.png
+│   │       │   │   │       ├── metro-icon-right.png
+│   │       │   │   │       ├── metro-icon-up-white.png
+│   │       │   │   │       ├── metro-icon-up.png
+│   │       │   │   │       ├── multi-arrow.gif
+│   │       │   │   │       ├── office-icon-down.png
+│   │       │   │   │       ├── office-icon-first.png
+│   │       │   │   │       ├── office-icon-last.png
+│   │       │   │   │       ├── office-icon-left.png
+│   │       │   │   │       ├── office-icon-right.png
+│   │       │   │   │       ├── office-icon-up.png
+│   │       │   │   │       ├── pin-black.png
+│   │       │   │   │       ├── pin-blue.png
+│   │       │   │   │       ├── pin-lightblue.png
+│   │       │   │   │       ├── pin-white.png
+│   │       │   │   │       ├── pin-yellow.png
+│   │       │   │   │       ├── pin.png
+│   │       │   │   │       ├── pinned-black.png
+│   │       │   │   │       ├── pinned-blue.png
+│   │       │   │   │       ├── pinned-lightblue.png
+│   │       │   │   │       ├── pinned-white.png
+│   │       │   │   │       ├── pinned-yellow.png
+│   │       │   │   │       ├── pinned.png
+│   │       │   │   │       ├── plus.png
+│   │       │   │   │       ├── plus_white.png
+│   │       │   │   │       ├── pointer.png
+│   │       │   │   │       ├── rangebar_classic.png
+│   │       │   │   │       ├── rangebar_darkblue.png
+│   │       │   │   │       ├── rangebar_shinyblack.png
+│   │       │   │   │       ├── rangebar_summer.png
+│   │       │   │   │       ├── red_arrow_down.png
+│   │       │   │   │       ├── red_arrow_up.png
+│   │       │   │   │       ├── red_gradient.png
+│   │       │   │   │       ├── roundbg_check_black.png
+│   │       │   │   │       ├── roundbg_check_disabled.png
+│   │       │   │   │       ├── roundbg_check_indeterminate.png
+│   │       │   │   │       ├── roundbg_check_white.png
+│   │       │   │   │       ├── roundbg_classic_hover.png
+│   │       │   │   │       ├── roundbg_classic_normal.png
+│   │       │   │   │       ├── roundbg_disabled.png
+│   │       │   │   │       ├── search.png
+│   │       │   │   │       ├── search_white.png
+│   │       │   │   │       ├── sortasc.png
+│   │       │   │   │       ├── sortascbutton.png
+│   │       │   │   │       ├── sortdesc.png
+│   │       │   │   │       ├── sortdescbutton.png
+│   │       │   │   │       ├── sortremove.png
+│   │       │   │   │       ├── star.png
+│   │       │   │   │       ├── star_disabled.png
+│   │       │   │   │       ├── star_hover.png
+│   │       │   │   │       ├── stripes.png
+│   │       │   │   │       ├── success.png
+│   │       │   │   │       ├── tick.png
+│   │       │   │   │       ├── time.png
+│   │       │   │   │       ├── track_classic.png
+│   │       │   │   │       ├── track_darkblue.png
+│   │       │   │   │       ├── track_shinyblack.png
+│   │       │   │   │       ├── track_summer.png
+│   │       │   │   │       ├── warning.png
+│   │       │   │   │       ├── wp_check_indeterminate_white.png
+│   │       │   │   │       └── wp_check_white.png
+│   │       │   │   └── dist
+│   │       │   │       ├── Styles
+│   │       │   │       │   └── niBase.DeployedRun.Absolute.min.css
+│   │       │   │       ├── niBase.min.js
+│   │       │   │       ├── niElements.min.js
+│   │       │   │       ├── niModelsAndViewModels.min.js
+│   │       │   │       ├── niRegistration.min.js
+│   │       │   │       └── niThirdPartyResources.min.js
+│   │       │   ├── favicon.ico
+│   │       │   └── node_modules
+│   │       │       ├── @ni-kismet
+│   │       │       │   └── jqx-elements
+│   │       │       │       └── source-minified
+│   │       │       │           └── styles
+│   │       │       │               ├── font
+│   │       │       │               │   ├── jqx.icons.eot
+│   │       │       │               │   ├── jqx.icons.svg
+│   │       │       │               │   ├── jqx.icons.ttf
+│   │       │       │               │   ├── jqx.icons.woff
+│   │       │       │               │   └── jqx.icons.woff2
+│   │       │       │               └── images
+│   │       │       │                   ├── check-mark-circle.svg
+│   │       │       │                   ├── check-mark-empty.svg
+│   │       │       │                   ├── check-mark-heart-empty.svg
+│   │       │       │                   ├── check-mark-heart-indetermined.svg
+│   │       │       │                   ├── check-mark-heart.svg
+│   │       │       │                   ├── check-mark-indetermined.svg
+│   │       │       │                   ├── check-mark.svg
+│   │       │       │                   ├── error.png
+│   │       │       │                   ├── icons-sprite.svg
+│   │       │       │                   ├── icons-stack.svg
+│   │       │       │                   ├── info.png
+│   │       │       │                   ├── magnifier.png
+│   │       │       │                   ├── mail.png
+│   │       │       │                   ├── power-button-off.svg
+│   │       │       │                   ├── power-button-on.svg
+│   │       │       │                   ├── success.png
+│   │       │       │                   ├── switch-mark-heart-gray.svg
+│   │       │       │                   ├── switch-mark-heart-red.svg
+│   │       │       │                   ├── time.png
+│   │       │       │                   └── warning.png
+│   │       │       ├── font-awesome
+│   │       │       │   └── fonts
+│   │       │       │       └── fontawesome-webfont.woff
+│   │       │       ├── ni-webcharts
+│   │       │       │   └── dist
+│   │       │       │       └── es6-minified
+│   │       │       │           └── webcharts.min.js
+│   │       │       ├── ni-webcharts-legends
+│   │       │       │   └── dist
+│   │       │       │       └── es6-minified
+│   │       │       │           └── webcharts-legends.min.js
+│   │       │       ├── vireo
+│   │       │       │   └── dist
+│   │       │       │       └── wasm32-unknown-emscripten
+│   │       │       │           └── release
+│   │       │       │               ├── vireo.core.wasm
+│   │       │       │               └── vireo.min.js
+│   │       │       └── webvi-websockets
+│   │       │           └── source
+│   │       │               └── main.js
+│   │       ├── support
+│   │       │   └── style.css
+│   │       └── version.json
+│   ├── Dashboard.gcomp
+│   │   ├── BeginRd.gvi
+│   │   ├── Dashboard.gcomp
+│   │   ├── Dashboard.gvi
+│   │   ├── DateAndTime.gvi
+│   │   ├── KillPython.gvi
+│   │   ├── Library.sli
+│   │   ├── One2Two.gvi
+│   │   ├── RunPython.gvi
+│   │   ├── Str2Arr.gvi
+│   │   ├── Time
+│   │   │   ├── time1.gvi
+│   │   │   └── time3.gvi
+│   │   ├── card.gvi
+│   │   ├── icons
+│   │   │   ├── Menu.png
+│   │   │   ├── Power.png
+│   │   │   ├── available.png
+│   │   │   ├── away.png
+│   │   │   ├── talking.png
+│   │   │   ├── talks.png
+│   │   │   └── waiting.png
+│   │   ├── ifRestart.gvi
+│   │   ├── initArray.gvi
+│   │   ├── keepAwake.gvi
+│   │   ├── posCluster.gvi
+│   │   ├── state1.gvi
+│   │   └── state2.gvi
+│   ├── Dboard-Bground.png
+│   ├── Photos
+│   │   ├── Ayden\ Foo.jpg
+│   │   ├── Carmen\ Lai.jpg
+│   │   ├── Chun\ Way\ Yap.jpg
+│   │   ├── HaiQiang\ Yuan.jpg
+│   │   ├── Hailong\ Liu.jpg
+│   │   ├── Jia\ Sheng\ Soo\ Hoe.jpg
+│   │   ├── Jixi\ Su.jpg
+│   │   ├── Lei\ Xu.jpg
+│   │   ├── Liming\ Zhang.jpg
+│   │   ├── Runsheng\ Zhao.jpg
+│   │   ├── Shaopeng\ Xu.jpg
+│   │   ├── Xiaoya\ Xie.jpg
+│   │   ├── Xin\ Chen.jpg
+│   │   ├── Xing\ Heng.jpg
+│   │   ├── Yanbin\ Li.jpg
+│   │   ├── Yaoming\ Ren.jpg
+│   │   ├── Yi\ Huang\ Loy.jpg
+│   │   ├── Yi\ Xu.jpg
+│   │   ├── Yibai\ Zhao.jpg
+│   │   ├── Yuqi\ Gu.jpg
+│   │   ├── Yuxuan\ Xu.jpg
+│   │   ├── Zhaoyong\ Wu.jpg
+│   │   ├── Zhenyang\ Gao.jpg
+│   │   ├── Zhenyu\ Gu.jpg
+│   │   ├── Zhi\ Yang\ Ong.jpg
+│   │   ├── Zhiyuan\ Xin.jpg
+│   │   └── Ziheng\ Zhang.jpg
+│   ├── ProjectMedia
+│   ├── WebUI.gcomp
+│   │   ├── Dashboard.gviweb
+│   │   ├── Dboard-Bground.png
+│   │   ├── WebUI.gcomp
+│   │   ├── card.png
+│   │   └── support
+│   │       └── style.css
+│   └── lvUI.lvproject
+└── pyData
+    ├── GetXML.py
+    ├── currentState.txt
+    ├── data.txt
+    └── nameList.txt
+
+41 directories, 279 files
