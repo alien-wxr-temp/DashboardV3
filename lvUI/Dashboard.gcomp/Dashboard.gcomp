@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8C8109373E91D17375E386592AF569D0898D790788E61BF8E4D1C84A679BDB32D0504126DD8C0E4EDA347A63F90C9C9B404E7C9F9C19DBD675AA415FBE86E323" Timestamp="1D56781D4618700" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="448B7C64A9490F2B07461640B041454D4160A1108420D7BCDF309705BFA3A9DBACC0F875DBC336C929CA12845C52F8C56E209F4977E2B86A33FF05EA4F7CA8A7" Timestamp="1D573455AAF6A4E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
@@ -7,7 +7,7 @@
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
 		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="配置1" Id="31675af062c246c5acefbc4898693faf" RootNamespaceId="2746523ea50d48df9e9b43ca13b5b0d8" UserVersion="0.0.0.7" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="配置1" Id="31675af062c246c5acefbc4898693faf" RootNamespaceId="2746523ea50d48df9e9b43ca13b5b0d8" UserVersion="0.0.0.9" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="a5c957cda05c40078926438860a157a9" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="f731d30e51414e769c04be0d1791337b" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="cf7356e9c9434f8fbd1ff3c497bbee2b" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
@@ -24,6 +24,22 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="778b99e3ad1a462596007aff85fb8a66" Id="21a4f169853449b6857aa2f753b8d314" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="e55a8a39c62d474999c7bb5b623e4d36" Id="d3ee934e1d434a2085d3d2eb7eb85601" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="cc977c034bd34e5ca5e5296576b64e28" Id="f7e317767e524e23846a419928cb15d1" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="21fc819c50844a76a218458426a5a688" Id="5357c96a46fa4dd68d5aec467ccec799" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="569260820078450b81b5275c7072d3df" Id="81ca27e8db8c433b9dfb176686b643c4" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="606c219c3f424cc59a50441e0c3cc15f" Id="3a1a3d41bad8487eb66bf42bb0e351a8" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d46fce97f6f949ce9dc766de093d1eef" Id="ad827a850073406687cbfbe77a14d12e" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="73dfa5c0bc5d4ffe871bf39532ac30cf" Id="aa418973220a4383b9365d1bde0ce476" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="68a413d5985549b6af2768fdf7cb5703" Id="34ae83eb048e499ab2a259df97e98ba4" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="bf0d96743dce42fcbb3980b024448e87" Id="abca50bb512844778909a6997e572586" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="b8c0ce0349d041bc9c07eb9c36fda76e" Id="77af3476f34f49ef9688874ec2ddc25c" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="539c3599d0ae4ced80bc280ef3b6136d" Id="7d0119f7761a4b478866162e7431c66d" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="8a98125fd5c542a59856383476181bb4" Id="ca8019080c3a4fca94ef7c29fe3d7adb" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="78660a12d0034ce7831acdcec4416010" Id="e478b09b19164c5487478e6983f4fd5a" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="1eb4a810c3944dca8719f7bc158ca370" Id="46c8d7442934c50ad12f6bd71446159" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d936643d16414d23ba6f723cdd48297f" Id="8e7cfe758f004f79bdcade188227f094" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d774239fd3754aef968afd8fca0e1111" Id="68314fc09e584282a568a490cfdb8e79" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f9658a63b1ac46d99d3651af79af0164" Id="d6e04f583d004696b2869050e26174fe" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="b679bff50c75486baf7220713143dda6" Id="82938f1b05404f499651cb1531f25fa1" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="b8b03d4e677a4d72a887debacf1d04b3" xmlns="http://www.ni.com/PlatformFramework">
